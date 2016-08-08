@@ -87,8 +87,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void alimentarLista() {
 
-        Log.d("DADOS",""+"TATENDO");
-
         String response = makeRequest("http://52.27.21.4/api/feed");
 
         try {
